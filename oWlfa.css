@@ -1,0 +1,9 @@
+.item{
+    background-color: aqua;
+    height: 70px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}

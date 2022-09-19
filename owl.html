@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Owl caroul</title>
+
+        <link rel="stylesheet" href="Css/owl.carousel.min.css">
+        <link rel="stylesheet" href="Css/owl.theme.default.min.css">
+
+
+        <link rel="stylesheet" href="   oWlfa.css">
+    </head>
+
+    <body>
+        <div class="owl-carousel carousel2 owl-theme">
+            <div class="item"><h4>1</h4></div>
+            <div class="item"><h4>2</h4></div>
+            <div class="item"><h4>3</h4></div>
+            <div class="item"><h4>4</h4></div>
+            <div class="item"><h4>5</h4></div>
+            <div class="item"><h4>6</h4></div>
+            <div class="item"><h4>7</h4></div>
+            <div class="item"><h4>8</h4></div>
+            <div class="item"><h4>9</h4></div>
+            <div class="item"><h4>10</h4></div>
+            <div class="item"><h4>11</h4></div>
+            <div class="item"><h4>12</h4></div>
+        </div>
+
+        <div class="owl-carousel carousel3 owl-theme">
+            <div class="item"><h4>Fahim</h4></div>
+            <div class="item"><h4>Tuhin</h4></div>
+            <div class="item"><h4>Hamim</h4></div>
+            <div class="item"><h4>Pervase</h4></div>
+            <div class="item"><h4>Rahim</h4></div>
+            <div class="item"><h4>Putin</h4></div>
+            <div class="item"><h4>Domingo</h4></div>
+            <div class="item"><h4>Papn</h4></div>
+            <div class="item"><h4>Hasina</h4></div>
+            <div class="item"><h4>Cader vhai jan</h4></div>
+            <div class="item"><h4>Mojiv</h4></div>
+            <div class="item"><h4>Jidan</h4></div>
+        </div>
+
+        <script src="JS/jquery-3.6.1.min.js"></script>
+        <script src="JS/owl.carousel.min.js"></script>
+        
+        <script type="text/javascript">
+            $('.carousel2').owlCarousel({
+                loop:true,
+                margin:10,
+                dots: false,
+                nav:false,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                // responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    600:{
+                        items:3,
+                    },
+                    1000:{
+                        items:5,
+                        loop:true
+                    }
+                }
+            })
+
+            $('.carousel3').owlCarousel({
+                loop:true,
+                margin:10,
+                dots: false,
+                nav:false,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                // responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    600:{
+                        items:3,
+                    },
+                    1000:{
+                        items:6,
+                        loop:true
+                    }
+                }
+            })
+
+        </script>
+    </body>
+</html>
